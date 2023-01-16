@@ -1,8 +1,8 @@
 Dcron
 ==============
 [![Language](https://img.shields.io/badge/Language-Go-blue.svg)](https://golang.org/)
-[![Tests](https://github.com/libi/dcron/actions/workflows/test.yml/badge.svg)](https://github.com/libi/dcron/actions/workflows/test.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/libi/dcron#1)](https://goreportcard.com/report/github.com/libi/dcron)
+[![Tests](https://github.com/daychou/dcron/actions/workflows/test.yml/badge.svg)](https://github.com/daychou/dcron/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/daychou/dcron#1)](https://goreportcard.com/report/github.com/daychou/dcron)
 
 a lightweight distributed job scheduler  library based on redis or etcd
 
@@ -62,7 +62,7 @@ dcron := NewDcron("server1", drv,cron.WithSeconds())
 ```
 
 另外还可以通过 ```NewDcronWithOption``` 方法初始化，可以配置日志输出等。
-可选配置可以参考：https://github.com/libi/dcron/blob/master/option.go
+可选配置可以参考：https://github.com/daychou/dcron/blob/master/option.go
 
 
 ### 服务名/serviceName
