@@ -13,7 +13,7 @@ type NodePool struct {
 	serviceName string
 	NodeID      string
 
-	mu    sync.Mutex
+	mu    sync.RWMutex
 	nodes *consistenthash.Map
 
 	Driver         driver.Driver
